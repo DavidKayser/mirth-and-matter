@@ -1,0 +1,334 @@
+[18-May-2021 00:28:26 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[18-May-2021 00:28:26 UTC] WordPress database error Incorrect table name '' for query INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '/e2tQ4PRduZx,ekc/Q&;{Bx[U-2=4lXH>Js[@sDG&Je9Hp<3}mwYgU}fgh WR|}%', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[18-May-2021 00:28:26 UTC] WordPress database error Incorrect table name '' for query INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_salt', '{Jen!MepI[7gO&},2PJ-K88C2>WVyp+>eR@/b7khi,Mku1&*`:N4;b#M<yT[.Lyu', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[21-Jul-2021 03:40:33 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:33 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:47 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:56 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:40:59 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 /home/customer/www/mirthandmatter.com/public_html/wp-admin/edit.php(10): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:05 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:08 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:08 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:08 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:08 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:08 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:10 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 /home/customer/www/mirthandmatter.com/public_html/wp-admin/post-new.php(10): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 /home/customer/www/mirthandmatter.com/public_html/wp-admin/index.php(10): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 /home/customer/www/mirthandmatter.com/public_html/wp-admin/index.php(10): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:36 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 /home/customer/www/mirthandmatter.com/public_html/wp-admin/index.php(10): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 03:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'W3TC\Config' not found in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php:545
+Stack trace:
+#0 /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php(29): require_once()
+#1 /home/customer/www/mirthandmatter.com/public_html/wp-settings.php(95): include('/home/customer/...')
+#2 /home/customer/www/mirthandmatter.com/public_html/wp-config.php(94): require_once('/home/customer/...')
+#3 /home/customer/www/mirthandmatter.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#4 /home/customer/www/mirthandmatter.com/public_html/wp-admin/admin.php(34): require_once('/home/customer/...')
+#5 /home/customer/www/mirthandmatter.com/public_html/wp-admin/index.php(10): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/mirthandmatter.com/public_html/wp-content/plugins/w3-total-cache/w3-total-cache-api.php on line 545
+[21-Jul-2021 04:06:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:06:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:06:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:06:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:06:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:06:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:06:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:06:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:07:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:07:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:08:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:08:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:09:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:09:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:09:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:09:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:09:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:09:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:09:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:09:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:09:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:09:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:09:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:09:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:10:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:10:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:10:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:10:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:10:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/functions.php on line 6584
+[21-Jul-2021 04:10:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:11:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:11:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 04:12:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-includes/http.php on line 492
+[21-Jul-2021 04:12:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/mirthandmatter.com/public_html/wp-content/advanced-cache.php:26) in /home/customer/www/mirthandmatter.com/public_html/wp-admin/includes/misc.php on line 1310
+[21-Jul-2021 23:13:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CURRENT_TIMESTAMP' at line 1 for query ALTER TABLE wp_ewwwio_images ALTER updated SET DEFAULT CURRENT_TIMESTAMP made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ewww_image_optimizer_admin_init, ewww_image_optimizer_upgrade, ewww_image_optimizer_install_table
+[22-Jul-2021 01:47:07 UTC] PHP Warning:  curl_exec(): Could not call the CURLOPT_HEADERFUNCTION in  on line 4469
+[03-Aug-2021 05:07:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CURRENT_TIMESTAMP' at line 1 for query ALTER TABLE wp_ewwwio_images ALTER updated SET DEFAULT CURRENT_TIMESTAMP made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ewww_image_optimizer_admin_init, ewww_image_optimizer_upgrade, ewww_image_optimizer_install_table, W3TC\DbCache_WpdbNew->query, W3TC\DbCache_WpdbInjection_QueryCaching->query, W3TC\_CallUnderlying->query, W3TC\DbCache_WpdbNew->query, W3TC\DbCache_WpdbInjection->query, W3TC\DbCache_WpdbNew->default_query
